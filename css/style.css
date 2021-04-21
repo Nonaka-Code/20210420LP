@@ -41,7 +41,7 @@ a {
   left: 20%;
   font-family: 'Indie Flower', cursive;
   font-size: 65px;
-  line-height: 2;
+  line-height: 1.5;
   color: rgb(184, 40, 129);
 }
 
@@ -140,7 +140,7 @@ a {
 }
 
 .about-text {
-  margin-left: 18%;
+  margin-left: 16%;
   margin-top: 20px;
   color: rgb(105, 104, 104);
   line-height: 1.5;
@@ -213,7 +213,7 @@ a {
 }
 
 .service-gr2 {
-  padding: 30px 15px;
+  padding: 20px 15px;
 }
 
 .service-text2-ttl {
@@ -235,7 +235,7 @@ a {
 }
 
 .service-gr3 {
-  padding: 30px 15px;
+  padding: 20px 15px;
 }
 
 .service-text3-ttl {
@@ -250,7 +250,7 @@ a {
 
 .blog {
   width: 100%;
-  height: 520px;
+  height: 550px;
   background: #ddd;
 }
 
@@ -274,8 +274,8 @@ a {
 .blog-wrapper {
   display: flex;
   justify-content: space-between;
-  width: 60%;
-  margin: 0 auto;
+  width: 62%;
+  margin-left: 18%;
 }
 
 .blog-card-img img{
@@ -308,7 +308,7 @@ a {
 }
 
 .blog-textbox-ttl {
-  padding: 15px;
+  padding: 10px;
   font-size: 15px;
   line-height: 1.5;
   color: rgb(80, 79, 79);
@@ -318,7 +318,7 @@ a {
   font-size: 14px;
   text-align: right;
   color: rgb(142, 143, 145);
-  padding: 15px;
+  padding: 22px;
 }
 
 .blog-card-item1 {
@@ -327,16 +327,16 @@ a {
 
 .blog-card-item2 {
   display: inline-block;
-  margin-left: 40px;
+  margin-left: 37px;
 }
 
 .blog-link {
   display: block;
   border: rgb(184, 40, 129) solid 2px;
   border-radius: 30px;
-  margin: 20px auto;
+  margin: 30px auto;
   width: 100px;
-  padding: 15px 50px;
+  padding: 20px 50px;
   font-size: 15px;
   background: #fff;
   color: rgb(184, 40, 129);
@@ -409,24 +409,21 @@ table th {
   transform: translate(-50%,-50%);
 }
 
-.from {
-  text-align: center;
-}
+
 
 .from-item-label {
   color: rgb(105, 104, 104);
   padding-bottom: 30px;
+  text-align: center;
 }
 
-textarea {
-  border: none;
-  resize: none;
-  outline: none;
-  width: 100%;
-  caret-color: rgb(184, 40, 129);
-  font-size: 30px;
-  padding-bottom: 20px;
-  text-align: center;
+.textarea {
+  width: 2px;
+  height: 30px;
+  padding-bottom: 10px;
+  margin-left: 50%;
+  background-color: rgb(184, 40, 129);
+  margin-bottom: 20px;
 }
 
 .from-btn {
